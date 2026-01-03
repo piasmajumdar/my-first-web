@@ -1,7 +1,17 @@
-echo "# my-first-web" >> README.md
+#1. one time each project to start git
 git init
-git add README.md
+
+#2. every time to add - Adds all files to the staging area
+git add .
+
+#3. Every time you commit- Saves a snapshot of your code
 git commit -m "first commit"
+
+#4. First time we locate the branch- Renames the current branch to main
 git branch -M main
+
+#5. First time - Connects your local Git project to GitHub
 git remote add origin https://github.com/piasmajumdar/my-first-web.git
+
+#6. Every time - Uploads your code to GitHub
 git push -u origin main
